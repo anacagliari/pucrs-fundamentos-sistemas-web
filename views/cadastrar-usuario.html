@@ -1,0 +1,60 @@
+<div class="container" id="conteudo-login">
+    <div class="row" id="conteudo-login-row">
+        <div class="col-6"> <!--Imagem e mensagem-->
+            <div class="row" id="imagem-texto-login">
+                <div class="col-12" id="imagem-login">
+                    <img src="../_imagens/Icone CadastroMarmota.png" width=300 height=300 alt="Computador com Imagem Marmota">
+                </div>
+                <div class="col-12 texto-login">
+                    <div class="texto-login">
+                        Cuide melhor do seu bichinho com a Marmota PET SHOP!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6"> <!--Card login-->
+            <div class="row" id="card-login">
+                <div class="col-12">
+                    <div id="titulo-login">
+                        <u>CADASTRAR</u> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="#/login">Fazer login</a>
+                    </div>
+                </div>
+                <form onsubmit="cadastraUsuario()" style="width: 100%;" id="formulario-usuario">
+                    <div class="col-12 dados-cadastrar">
+                        Nome completo
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        <input type="text" class="form-control input-login" id="nome-completo" placeholder="nome completo">
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        E-mail
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        <input type="email" class="form-control input-login" id="e-mail" placeholder="seunome@email.com.br">
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        Endereço
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        <input type="text" class="form-control input-login" id="endereco" placeholder="endereço completo">
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        Telefone
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        <input type="tel" class="form-control input-login" id="telefone" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        Senha
+                    </div>
+                    <div class="col-12 dados-cadastrar">
+                        <input type="password" class="form-control input-login" id="senha" placeholder="digite sua senha">
+                    </div>
+                    <div class="col-12 botao-logar">
+                        <button type="submit" class="btn btn-secondary btn-lg">Entrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,534 @@
+/*todos .html*/
+* {
+	font-family: "Days One", sans-serif;
+}
+
+#main-content {
+    width: 100%;
+    height: 85%;
+}
+
+#cabecalho {
+	border-bottom: 1px black solid;
+	height: 100px;
+	background-color: rgb(207, 206, 201);
+	padding-top: 15px !important;
+}
+
+.days-one-regular {
+	font-family: "Days One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+/*// <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 1000
+  
+.dm-sans-<uniquifier> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.dm-sans-sabor {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a {
+	color: black !important;
+}
+
+.navbar-nav {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+#header-logo {
+	padding-left: 30px !important;
+	padding-right: 5px !important;
+	text-align: right;
+}
+
+#header-texto {
+	padding-left: 20px !important;
+	padding-right: 0px !important;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.container {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	max-width: 100% !important;
+}
+
+.logo h1 {
+	font-size: 36px;
+	margin-bottom: 0;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.logo p {
+	font-size: 14px;
+	margin-top: 0;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.nav-item a {
+	font-size: 12px;
+	color: black;
+}
+
+#div-login {
+	text-align: right;
+	padding-top: 8px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#icone-login {
+	text-align: right;
+	padding-left: 0px !important;
+	padding-right: 10px !important;
+}
+
+#links-login {
+	text-align: left;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#conta {
+	font-size: 20px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#sair {
+	font-size: 12px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#entrar {
+	font-size: 24px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#cadastrar {
+	font-size: 12px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#div-texto {
+	word-break: break-word !important;
+	padding: 5% 20% !important;
+	text-align: center;
+}
+
+.nav-link {
+	white-space: nowrap;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+
+html{
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+footer {
+	background-color: #f3f3f2;
+	font-size: 8px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+hr{
+	margin: 0px !important;
+}
+
+/*index.html*/
+.links-home {
+	background-color: rgb(207, 206, 201);
+	border: 1px black solid;
+	border-radius: 25px;
+	height: 100%;
+	width: 80%;
+	font-size: 24px;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+#conteudo-home {
+	background-color: #f3f3f2;
+	height: 100%;
+	vertical-align: middle !important;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#conteudo-home-row{
+	height: 75%;
+}
+
+.coluna-home {
+	height: 100%;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.img-home {
+	display: flex; /* Torna o container um flex container */
+	justify-content: center; /* Centraliza horizontalmente */
+}
+
+/*produtos.html*/
+
+#conteudo-produtos {
+	background-color: #f3f3f2;
+	height: 100%;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+#conteudo-produtos-row {
+	height: 75%;
+}
+
+#titulo-pagina-produtos {
+	padding-left: 20px;
+	font-size: 28px;
+	display: flex; /* Torna o container um flex container */
+    align-items: flex-start; /* Centraliza verticalmente */
+}
+
+#img-produtos-pet {
+	margin-right: 20px;
+}
+
+#produtos-esquerda {
+	padding-right: 50px;
+	display: flex; /* Torna o container um flex container */
+    justify-content: flex-end; /* Centraliza horizontalmente */
+}
+
+#card-produtos {
+	background-color: rgb(207, 206, 201);
+	border: 1px black solid;
+	border-radius: 25px;
+	width: 70%;
+}
+
+#produtos-direita {
+	padding-left: 50px;
+	display: flex; /* Torna o container um flex container */
+    justify-content: flex-start; /* Centraliza horizontalmente */
+}
+
+.titulo-produto {
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.produto {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 20px;
+	width: 80%;
+	height: 40px;
+	background-color: #B4B4B1;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+
+.img-racao {
+	margin: 20px 0px;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.sabor-produto {
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+	font-size: 22px;
+}
+
+.tipo-produto {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #B4B4B1;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+
+/*login.html*/
+#login {
+	width: 100%;
+	height: 100%;
+}
+
+#conteudo-login {
+	background-color: #f3f3f2;
+	height: 100%;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+#conteudo-login-row {
+	padding-top: 60px;
+	height: 75%;
+}
+
+#imagem-texto-login {
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+#imagem-login {
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+	align-items: center; /* Centraliza verticalmente */
+}
+
+.texto-login {
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+	align-items: center; /* Centraliza verticalmente */
+	text-align: center;
+	width: 50%;
+}
+
+#card-login {
+	width: 80%;
+	height: 511px;
+	background-color: rgb(207, 206, 201);
+	border: 1px black solid;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+#titulo-login {
+	text-align: center;
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.dados-login {
+	padding: 0px 0px 5px 50px !important;
+	display: flex; /* Torna o container um flex container */
+    justify-content: flex-start; /* Centraliza horizontalmente */
+	align-items: center; /* Centraliza verticalmente */
+	font-size: 15px;
+}
+
+.btn-secondary {
+	background-color:#B4B4B1 !important;
+	color: black !important;
+	border-color: black !important;
+}
+
+.botao-logar {
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+	align-items: center; /* Centraliza verticalmente */
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.input-login {
+	color: black !important;
+	border-color: black !important;
+	width: 90% !important;
+}
+
+.dados-cadastrar {
+	padding: 0px 0px 5px 50px !important;
+	display: flex; /* Torna o container um flex container */
+    justify-content: flex-start; /* Centraliza horizontalmente */
+	align-items: center; /* Centraliza verticalmente */
+	font-size: 15px;
+}
+
+/*area-usuario.html*/
+#conteudo-area-usuario {
+	background-color: #f3f3f2;
+}
+
+#abas{
+	padding: 50px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	background-color: rgb(207, 206, 201) !important;
+	border-color: black !important;
+	border-bottom: 0px;
+}
+
+.nav-tabs .nav-link {
+	background-color: #B4B4B1 !important;
+	border-color: black !important;
+}
+
+#dados-pessoais-aba{
+	background-color: rgb(207, 206, 201) !important;
+	width: 100% !important;
+	border: 1px black solid;
+}
+
+.dados-cadastrados {
+	padding: 0px 0px 5px 50px !important;
+}
+
+.input-dados-cadastrados {
+	width: 60% !important;
+}
+
+#nome-completo-dados {
+	padding-top: 20px !important;
+}
+
+#dados-pet-aba{
+	background-color: rgb(207, 206, 201) !important;
+	width: 100% !important;
+	border: 1px black solid;
+}
+
+#nome-pet {
+	padding-top: 20px !important;
+}
+
+.dados-cadastrados-pet {
+	padding: 0px 0px 5px 20px !important;
+}
+
+#tabela-pets {
+	width: 100%;
+	margin-top: 20px;
+	border: 1px black solid;
+}
+
+#tabela-pets thead tr td {
+	background-color:#B4B4B1 !important;
+	border: 1px black solid;
+	text-align: center;
+}
+
+#tabela-pets tbody tr td {
+	background-color: #f3f3f2 !important;
+	border: 1px black solid;
+	text-align: center;
+}
+
+/*servicos.html*/
+#conteudo-servicos {
+	background-color: #f3f3f2;
+	height: 100%;
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+#conteudo-servicos-row {
+	height: 75%;
+}
+
+#titulo-pagina-servicos {
+	padding-left: 20px;
+	font-size: 28px;
+	display: flex; /* Torna o container um flex container */
+    align-items: flex-start; /* Centraliza verticalmente */
+}
+
+#card-servicos {
+	background-color: rgb(207, 206, 201);
+	border: 1px black solid;
+	border-radius: 25px;
+	width: 70%;
+}
+
+#agendamento-servico {
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.titulo-servico {
+	display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.servico {
+	text-align: left;
+	font-size: 24px;
+	margin-top: 20px;
+	width: 80%;
+	height: 80px;
+}
+
+.form-check {
+	padding: 20px 0px 20px 50px !important;
+	display: flex !important;
+    align-items: center !important;
+}
+
+#tele-busca{
+	padding-bottom: 50px !important;
+}
+
+input[type="checkbox"] {
+	width: 20px; /* Largura desejada */
+	height: 20px; /* Altura desejada */
+}
+
+.dados-agendamento-servicos {
+	margin: 10px;
+}
+
+.imagens-servicos {
+	margin: 0px 30px !important;
+}
+
+.dados-agendamento-servicos-row {
+	padding-top: 40px;
+}
+
+#myTabContent {
+	width: 100% !important;
+}
+
+#form-usuario {
+	width: 100% !important;
+}
+
+#form-pet {
+	width: 100% !important;
+}

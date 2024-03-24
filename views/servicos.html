@@ -1,0 +1,76 @@
+<div class="container" id="conteudo-servicos"> <!--Serviços-->
+    <div class="row" id="conteudo-servicos-row">
+        <div class="col-12"> <!--Voltar-->
+            <a href="#/">
+                <img src="../_imagens/flecha.png" width=50 height=50 alt="Imagem flecha">
+                Voltar
+            </a>
+        </div>
+        <div class="col-12" id="titulo-pagina-servicos"> <!--Título página-->
+            <img src="../_imagens/Icone BanhoTosaMarmota.png" id="img-produtos-pet" width=100 height=100 alt="Imagem de ração com Logo da Marmota">
+            Agendamento de Serviços
+        </div>
+        <div class="col-12" id="agendamento-servico"> <!--Agendamento Serviços-->
+            <div id="card-servicos">
+                <div class="row">
+                    <div class="col-12 titulo-servico"> <!--Título produto-->
+                        <div class="servico">
+                            <p id="usuario-logado">Olá!</p> <!------------------NOME USUARIO--------------------->
+                            Selecione abaixo os serviços desejados para seu PET:
+                        </div>
+                    </div>
+                    <form id="formAgendamento" onsubmit="agendarServico()">
+                        <div class="row">
+                            <div class="col-6"> <!--Seleção serviços-->
+                                <div class="row">
+                                    <div class="form-check col-12">
+                                        <input class="form-check-input" type="checkbox" value="" id="banho">
+                                        <img src="../_imagens/Icone BanhoMarmota.png" width="70px" height="70px" alt="Imagem de banho" class="imagens-servicos">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            BANHO R$ 80,00
+                                        </label>
+                                    </div>
+                                    <div class="form-check col-12">
+                                        <input class="form-check-input" type="checkbox" value="" id="tosa">
+                                        <img src="../_imagens/Icone Tosaa.png" width="60px" height="60px" alt="Imagem de Tosa" class="imagens-servicos">
+                                        <label class="form-check-label" for="defaultCheck2">
+                                            TOSA R$ 80,00
+                                        </label>
+                                    </div>
+                                    <div class="form-check col-12" id="tele-busca">
+                                        <input class="form-check-input" type="checkbox" value="" id="busca">
+                                        <img src="../_imagens/Icone TeleBuscaMarmota.png" width="70px" height="70px" alt="Imagem de Carro" class="imagens-servicos">
+                                        <label class="form-check-label" for="defaultCheck2">
+                                            TELE BUSCA R$ 30,00
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6"> <!--Agendamento serviços-->
+                                <div class="row dados-agendamento-servicos-row">
+                                    <div class="col-12 dados-agendamento-servicos">
+                                        <select class="form-control" id="porte">
+                                            <option>PORTE</option>
+                                            <option>Pequeno</option>
+                                            <option>Médio</option>
+                                            <option>Grande</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 dados-agendamento-servicos">
+                                        <input type="datetime-local" class="form-control" id="dataHora">
+                                    </div>
+                                    <div class="col-12 dados-agendamento-servicos">
+                                        <input type="text" class="form-control" placeholder="ENDEREÇO" id="endereco">
+                                    </div>
+                                    <div class="col-12 botao-logar">
+                                        <button type="submit" class="btn btn-secondary btn-lg">AGENDAR</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
