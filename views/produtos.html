@@ -10,20 +10,102 @@
             <img src="_imagens/Icone RacaoMarmota.png" id="img-produtos-pet" width=100 height=100 alt="Imagem de ração com Logo da Marmota">
             Produtos para seu PET
         </div>
-        <div class="col-6" id="produtos-esquerda"> <!--Ração Seca-->
-            <div id="card-produtos">
-                <div class="row">
-                    <div class="col-12 titulo-produto"> <!--Título produto-->
-                        <div class="produto">
-                            Ração Seca
+
+            <div class="col-6" id="produtos-esquerda"> <!--Ração Seca-->
+                <div id="card-produtos">
+                    <div class="row">
+                        <div class="col-12 titulo-produto"> <!--Título produto-->
+                            <div class="produto">
+                                Ração Seca
+                            </div>
+                        </div>
+                        <div class="col-12 img-racao"> <!--Imagem produto COM CARROSEL-->
+                            <div id="carouselRacaoSeca" class="imagem carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="_imagens/racao-seca-filhote.png" style="border: 1px black solid;" width=180 height=200 alt="Ração seca filhote">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="_imagens/racao-seca-adulto.png" style="border: 1px black solid;" width=180 height=200 alt="Ração seca adulto">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="_imagens/racao-seca-senior.png" style="border: 1px black solid;" width=180 height=200 alt="Ração seca senior">
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselRacaoSeca" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">←</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselRacaoSeca" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">→</span>
+                            </a>
+                        </div>
+                        <div class="col-12"> <!--Sabor produto-->
+                            <div class="sabor-produto dm-sans-sabor">
+                                SABOR CARNE 1kg
+                            </div>
+                        </div>
+                        <div class="col-12"> <!--Tipo produto-->
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="tipo-produto dm-sans-sabor">
+                                        FILHOTE<br/>
+                                        R$ 24,99
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="tipo-produto dm-sans-sabor">
+                                        ADULTO<br/>
+                                        R$ 21,89
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="tipo-produto dm-sans-sabor">
+                                        SÊNIOR<br/>
+                                        R$ 27,99
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 img-racao"> <!--Imagem produto-->
-                        <img src="_imagens/racao-seca.png" style="border: 1px black solid;" width=300 height=180 alt="Imagem Banho e Tosa com Logo da Marmota">
+                </div>
+            </div>
+            <div class="col-6" id="produtos-direita"> <!--Ração Úmida-->
+                <div id="card-produtos">
+                    <div class="row">
+                    <div class="col-12 titulo-produto"> <!--Título produto-->
+                        <div class="produto">
+                            Ração Úmida
+                        </div>
+                    </div>
+                    <div class="col-12 img-racao"> <!--Imagem produto COM CARROSEL-->
+                        <div id="carouselRacaoUmida" class="imagem carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="_imagens/racao-umida-filhote.png" style="border: 1px black solid;" width=200 height=200 alt="Ração umida filhote">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="_imagens/racao-umida-adulto.png" style="border: 1px black solid;" width=200 height=200 alt="Ração umida adulto">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="_imagens/racao-umida-senior.png" style="border: 1px black solid;" width=200 height=200 alt="Ração umida senior">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselRacaoUmida" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">←</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselRacaoUmida" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">→</span>
+                        </a>
                     </div>
                     <div class="col-12"> <!--Sabor produto-->
                         <div class="sabor-produto dm-sans-sabor">
-                            SABOR CARNE 1kg
+                            SABOR CARNE 100g
                         </div>
                     </div>
                     <div class="col-12"> <!--Tipo produto-->
@@ -31,65 +113,25 @@
                             <div class="col-4">
                                 <div class="tipo-produto dm-sans-sabor">
                                     FILHOTE<br/>
-                                    R$ 24,99
+                                    R$ 3,79
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="tipo-produto dm-sans-sabor">
                                     ADULTO<br/>
-                                    R$ 21,89
+                                    R$ 3,39
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="tipo-produto dm-sans-sabor">
                                     SÊNIOR<br/>
-                                    R$ 27,99
+                                    R$ 3,99
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-6" id="produtos-direita"> <!--Ração Úmida-->
-            <div id="card-produtos">
-                <div class="row">
-                <div class="col-12 titulo-produto"> <!--Título produto-->
-                    <div class="produto">
-                        Ração Úmida
-                    </div>
-                </div>
-                <div class="col-12 img-racao"> <!--Imagem produto-->
-                    <img src="_imagens/racao-umida.png" style="border: 1px black solid;" width=300 height=180 alt="Imagem de ração com Logo da Marmota">
-                </div>
-                <div class="col-12"> <!--Sabor produto-->
-                    <div class="sabor-produto dm-sans-sabor">
-                        SABOR CARNE 100g
-                    </div>
-                </div>
-                <div class="col-12"> <!--Tipo produto-->
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="tipo-produto dm-sans-sabor">
-                                FILHOTE<br/>
-                                R$ 3,79
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="tipo-produto dm-sans-sabor">
-                                ADULTO<br/>
-                                R$ 3,39
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="tipo-produto dm-sans-sabor">
-                                SÊNIOR<br/>
-                                R$ 3,99
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </div>
